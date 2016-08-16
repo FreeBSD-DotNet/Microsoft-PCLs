@@ -1,0 +1,3 @@
+	This file is a tar of the PortableClassLibraries provided by Microsoft. I had to re-archive them because they are bundled in a WINDOWS executable that outputs a zip file. Because the directories use the MS DOS notation, the FreeBSD unzip utility does not recognize them as directories and simply appends the directory name to the file name. Not cool.
+
+The paths in this TAR file (created using 7zip) are respected in FreeBSD on 10.3-RELEASE. They have not been tested anywhere else.
